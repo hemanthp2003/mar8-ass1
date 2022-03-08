@@ -1,0 +1,17 @@
+
+
+#write a program to count  the consonents from the given string.
+
+str=input('enter enter the string:')
+
+con=0
+
+for i in str:
+
+    if (i !='a' and  i !='e' and  i !='i' and  i !='o' and i !='u'):
+
+         con+=1
+
+else:
+
+    print('The number of  consonents to  given strings :',con)
